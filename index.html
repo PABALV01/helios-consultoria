@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Helios Consultoría | Informes Solares Quilmes</title>
+<style>
+body{font-family:Inter,sans-serif;background:#fdf8ef;color:#2d2d2d;margin:0}
+.hero{background:linear-gradient(135deg,#ffb703 0%,#fb8500 100%);padding:60px 20px;text-align:center;color:#000}
+.card{max-width:700px;margin:-30px auto 20px;background:white;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.1);padding:32px}
+.badge{background:#000;color:#ffb703;padding:4px 10px;border-radius:20px;font-size:12px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0}
+.plan{border:2px solid #eee;border-radius:12px;padding:16px}
+.plan.destacado{border-color:#ffb703}
+input{width:100%;padding:12px;border:1px solid #ddd;border-radius:8px;margin:6px 0;box-sizing:border-box}
+button{width:100%;background:#000;color:white;padding:14px;border:none;border-radius:8px;font-weight:bold;cursor:pointer}
+button:hover{background:#ffb703;color:#000}
+small{color:#666}
+</style>
+</head>
+<body>
+<div class="hero">
+<h1>☀️ Helios Consultoría</h1>
+<p>Consultoría independiente. No vendemos paneles, te decimos la verdad.</p>
+</div>
+
+<div class="card">
+<div class="grid">
+<div class="plan">
+<span class="badge">EXPRESS</span>
+<h3>Virtual - $15.000</h3>
+<p>✓ Análisis satelital<br>✓ Cálculo de ahorro<br>✓ Entrega 48hs por PDF</p>
+<small>Ideal para saber si vale la pena.</small>
+</div>
+<div class="plan destacado">
+<span class="badge">COMPLETO</span>
+<h3>Con Visita - $60.000</h3>
+<p>✓ Todo lo Express<br>✓ Medición real + sombras<br>✓ Revisión de tablero</p>
+<small>Listo para pasar a instalador.</small>
+</div>
+</div>
+
+<h3>Pedí tu informe</h3>
+<form>
+<input placeholder="Nombre">
+<input placeholder="Localidad (ej: Quilmes Oeste)">
+<input placeholder="Consumo: ej 350 kWh/mes">
+<input type="file"><small>Factura (podés tapar N° de cliente)</small>
+<p style="font-size:13px"><label><input type="checkbox" required style="width:auto"> Acepto que mis datos (localización y consumo) se usen solo para mi informe. Puedo pedir borrado a hola@helios.com.ar - Ley 25.326</label></p>
+<button>Solicitar por WhatsApp →</button>
+</form>
+</div>
+</body>
+</html>
